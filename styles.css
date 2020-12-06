@@ -21,10 +21,10 @@
 
 article img {
   width: 300px;
-  height: 100px;
-  padding-left: 50px;
-  opacity: 0.9;
+  height: 108px;
+  margin-left: 50px;
   z-index: 1;
+  border: #111111 solid 3px;
 }
 article {
   z-index: 2;
