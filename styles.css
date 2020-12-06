@@ -7,12 +7,9 @@ p {
   max-width: 500px;
 }
 
-body {
-  width: 100%;
-}
 
 .title {
-  width: 100%;
+  width: inherit;
   background-color: #001f3f;
   text-decoration: underline;
   display: flex;
@@ -33,7 +30,6 @@ body {
 }
 
 nav {
-  width: 100%;
   background-color: black;
   height: 30px;
   padding-top: 10px;
@@ -87,3 +83,5 @@ article h2 {
 .css li {
   margin: 4px 0;
 }
+
+@media only 
