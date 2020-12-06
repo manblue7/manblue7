@@ -57,7 +57,8 @@ section {
 
 .jellywTags ul {
   display: inline-block;
-  text-size-adjust: none;		
+  text-size-adjust: none;
+  height: 76px;		
   position: relative;
   bottom: 24px;
 }
