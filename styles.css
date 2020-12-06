@@ -5,14 +5,35 @@
   display: flex;
   flex-direction: column;
 }
+
+.title img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+
 .title h1 {
   text-align: center;
   height: 60px;
   padding-top: 30px;
 }
 
+article img {
+  width: 300px;
+  height: 100px;
+  padding-left: 50px;
+  opacity: 0.9;
+  z-index: 1;
+}
+article {
+  z-index: 2;
+}
+
+.jellywTags {
+  display: inline-flex;
+}
+
 nav {
-  
   background-color: black;
   height: 30px;
   padding-top: 10px;
