@@ -1,0 +1,44 @@
+.title {
+  width: 100%;
+  background-color: #34eba4;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+}
+.title h1 {
+  text-align: center;
+  height: 60px;
+  padding-top: 30px;
+}
+
+nav {
+  
+  background-color: black;
+  height: 30px;
+  padding-top: 10px;
+}
+
+nav p {
+  display: inline;
+  padding-left: 35px;
+  
+}
+nav p a {
+  color: white;
+}
+
+article h2 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 5px;
+  border: 3px solid black;
+  margin: 0 0;
+}
+
+.css h2 {
+  background-color: cyan;
+}
+
+.css li {
+  margin: 4px 0;
+}
