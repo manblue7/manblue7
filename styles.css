@@ -1,3 +1,7 @@
+html {
+  font-family: Rockwell Extra Bold,Rockwell Bold,monospace;
+}
+
 .title {
   width: 100%;
   background-color: #001f3f;
@@ -19,22 +23,6 @@
   padding-top: 30px;
 }
 
-article img {
-  width: 300px;
-  height: 108px;
-  margin-left: 50px;
-  z-index: 1;
-  border: #111111 solid 3px;
-}
-article {
-  z-index: 2;
-}
-
-.jellywTags {
-  display: inline-flex;
-  width: 100%;
-}
-
 nav {
   background-color: black;
   height: 30px;
@@ -50,6 +38,30 @@ nav p a {
   color: white;
 }
 
+article img {
+  width: 300px;
+  height: 108px;
+  margin-left: 50px;
+  z-index: 1;
+  border: #111111 solid 3px;
+}
+article {
+  z-index: 2;
+}
+
+.jellywTags {
+  display: inline-flex;
+  width: 100%;
+}
+.jellywTags ul {
+  flex-shrink: 0;
+}
+
+.bodyEle {
+  margin-bottom: 50px;
+}
+
+
 article h2 {
   text-align: center;
   font-size: 30px;
@@ -64,4 +76,10 @@ article h2 {
 
 .css li {
   margin: 4px 0;
+}
+
+@media only screen and (max-width: 480px) {
+  jellywTags ul {
+    font-size: 3rem;
+  }
 }
