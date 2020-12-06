@@ -55,9 +55,6 @@ section {
   margin: 30px auto;
 }
 
-.jellywTags {
-  width: 100%;
-}
 .jellywTags ul {
   display: inline-block;
   flex-shrink: 0;
