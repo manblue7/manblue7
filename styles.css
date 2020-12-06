@@ -1,6 +1,6 @@
 .title {
   width: 100%;
-  background-color: #34eba4;
+  background-color: #001f3f;
   text-decoration: underline;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,7 @@
 }
 
 .title h1 {
+  color: #01FF70;
   text-align: center;
   height: 60px;
   padding-top: 30px;
