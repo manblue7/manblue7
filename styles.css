@@ -2,6 +2,10 @@ html {
   font-family: Rockwell Extra Bold,Rockwell Bold,monospace;
 }
 
+p {
+  max-width: 500px;
+}
+
 .title {
   width: 100%;
   background-color: #001f3f;
@@ -46,8 +50,9 @@ article img {
   border: #111111 solid 3px;
   display: inline-block;
 }
-article {
-  z-index: 2;
+section {
+  width: 500px;
+  margin: 30px auto;
 }
 
 .jellywTags {
@@ -59,11 +64,6 @@ article {
   position: relative;
   bottom: 24px;
 }
-
-.bodyEle {
-  margin-bottom: 50px;
-}
-
 
 article h2 {
   text-align: center;
