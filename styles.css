@@ -1,5 +1,6 @@
 html {
   font-family: Rockwell Extra Bold,Rockwell Bold,monospace;
+  font-size: 16px;
 }
 
 p {
@@ -60,6 +61,11 @@ section {
   text-size-adjust: none;	
   position: relative;
   bottom: 24px;
+}
+
+.jellywTags ul li {
+  font-size: 1rem;
+  padding-top: 5px;
 }
 
 article h2 {
