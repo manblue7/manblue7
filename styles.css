@@ -44,17 +44,20 @@ article img {
   margin-left: 50px;
   z-index: 1;
   border: #111111 solid 3px;
+  display: inline-block;
 }
 article {
   z-index: 2;
 }
 
 .jellywTags {
-  display: inline-flex;
   width: 100%;
 }
 .jellywTags ul {
+  display: inline-block;
   flex-shrink: 0;
+  position: relative;
+  bottom: 24px;
 }
 
 .bodyEle {
@@ -76,10 +79,4 @@ article h2 {
 
 .css li {
   margin: 4px 0;
-}
-
-@media only screen and (max-width: 480px) {
-  jellywTags ul {
-    font-size: 3rem;
-  }
 }
