@@ -18,9 +18,15 @@ body {
   flex-direction: column;
 }
 
-.title img {
-  max-height: 100px;
-  max-width: 100px;
+.frog {
+  border: black solid 7px;
+  border-radius: 100%;
+  background-image: url(frog.gif);
+  background-size: cover;
+  background-position: center;
+  height: 87px;
+  background-color: white;
+  min-width: 90px;
 }
 
 .title h1 {
