@@ -26,13 +26,13 @@ body {
 .title h1 {
   color: #01FF70;
   text-align: center;
-  height: 60px;
-  padding-top: 30px;
-  margin: 0 auto;
+  margin: 0 auto ;
 }
 
 .frogntitle {
+  height: 100px;
   display: inline-flex;
+  align-items: center;
 }
 
 nav {
