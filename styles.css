@@ -3,7 +3,7 @@ html {
   font-size: 16px;
 }
 
-li, p {
+p {
   max-width: 500px;
 }
 
@@ -88,4 +88,5 @@ article h2 {
 
 .css li {
   margin: 4px 0;
+  word-break: break-all;
 }
