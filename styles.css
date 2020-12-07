@@ -1,9 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html {
+html { 
   font-family: Rockwell Extra Bold,Rockwell Bold,monospace;
   font-size: 16px;
 }
@@ -14,6 +9,7 @@ p {
 
 body {
   display: flexbox;
+  margin: 0;
 }
 
 .title {
