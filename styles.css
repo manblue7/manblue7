@@ -21,7 +21,6 @@ body {
 .title img {
   max-height: 100px;
   max-width: 100px;
-  position: absolute;
 }
 
 .title h1 {
@@ -29,6 +28,11 @@ body {
   text-align: center;
   height: 60px;
   padding-top: 30px;
+  margin: 0 auto;
+}
+
+.frogntitle {
+  display: inline-flex;
 }
 
 nav {
