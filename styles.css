@@ -3,7 +3,7 @@ html {
   font-size: 16px;
 }
 
-ul, p {
+li, p {
   max-width: 500px;
 }
 
